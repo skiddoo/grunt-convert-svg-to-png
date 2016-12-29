@@ -40,7 +40,7 @@ See the [Gruntfile](Gruntfile.js) in this repo for a full example.
 
 ```js
 grunt.initConfig({
-  convert-svg-to-png: {
+  "convert-svg-to-png": {
     fallback: {
       options: {
         size: {w: 100px, h: 100px},
