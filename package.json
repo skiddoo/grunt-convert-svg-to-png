@@ -1,0 +1,42 @@
+{
+  "name": "grunt-convert-svg-to-png",
+  "version": "1.0.0",
+  "description": "Convert SVG to PNG",
+  "keywords": [
+    "gruntplugin",
+    "svg",
+    "png",
+    "vector",
+    "graphic",
+    "image"
+  ],
+  "homepage": "https://github.com/skiddoo/grunt-convert-svg-to-png",
+  "bugs": "https://github.com/skiddoo/grunt-convert-svg-to-png",
+  "author": {
+    "name": "Jaie Wilson"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/skiddoo/grunt-convert-svg-to-png.git"
+  },
+  "license": "unlicense",
+  "scripts": {
+    "test": "grunt"
+  },
+  "dependencies": {
+    "fs-extra": "^1.0.0",
+    "svg-to-png": "^3.1.2"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-simple-mocha": "^0.4.0",
+    "image-size": "^0.5.0"
+  },
+  "peerDependencies": {
+    "grunt": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
