@@ -1,6 +1,6 @@
 {
   "name": "grunt-convert-svg-to-png",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Convert SVG to PNG",
   "keywords": [
     "gruntplugin",
