@@ -30,7 +30,7 @@ module.exports = function (grunt) {
       }
     },
 
-    simplemocha: {
+    mochaTest: {
       test: {
         src: "test/*.js"
       }
@@ -44,8 +44,8 @@ module.exports = function (grunt) {
 
   grunt.loadTasks("tasks");
   grunt.loadNpmTasks("grunt-contrib-clean");
-  grunt.loadNpmTasks("grunt-simple-mocha");
+  grunt.loadNpmTasks('grunt-mocha-test');
 
-  grunt.registerTask("default", ["clean", "convert-svg-to-png", "simplemocha", "clean"]);
+  grunt.registerTask("default", ["clean", "convert-svg-to-png", "mochaTest", "clean"]);
 
 };

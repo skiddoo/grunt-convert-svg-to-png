@@ -30,7 +30,7 @@
   "devDependencies": {
     "grunt": "^1.0.0",
     "grunt-contrib-clean": "^1.0.0",
-    "grunt-simple-mocha": "^0.4.0",
+    "grunt-mocha-test": "^0.13.0",
     "image-size": "^0.5.0"
   },
   "peerDependencies": {
